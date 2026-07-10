@@ -1,15 +1,24 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ССИК">
   <rect width="40" height="40" rx="5" fill="#f2b134"/>
-  <!-- industrial skyline / structure in negative space -->
+  <!-- tower crane silhouette lifting a load -->
   <g fill="#141007">
-    <rect x="8.5" y="16" width="5" height="14"/>
-    <rect x="17.5" y="10.5" width="5" height="19.5"/>
-    <rect x="26.5" y="19" width="5" height="11"/>
-    <rect x="8" y="30" width="24" height="2.6"/>
+    <!-- horizontal jib (arm) -->
+    <rect x="7.4" y="11" width="25.8" height="2.4"/>
+    <!-- counterweight (left) -->
+    <rect x="6.8" y="9.2" width="4.2" height="5.8" rx="0.5"/>
+    <!-- mast (tower) -->
+    <rect x="17.5" y="12.6" width="2.9" height="18.6"/>
+    <!-- base foot -->
+    <rect x="13.2" y="31" width="11.6" height="2.4" rx="0.4"/>
+    <!-- suspended load -->
+    <rect x="26.9" y="20.4" width="4.6" height="3.3" rx="0.4"/>
   </g>
-  <!-- amber "windows" cut into the tallest tower -->
-  <g fill="#f2b134">
-    <rect x="19" y="13.5" width="2" height="2"/>
-    <rect x="19" y="18" width="2" height="2"/>
+  <g fill="none" stroke="#141007" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- cat-head apex + tie bars -->
+    <path d="M18.95 6.2 L9.3 11 M18.95 6.2 L31 11 M18.95 6.2 L18.95 12.4"/>
+    <!-- hoist cable lifting the load -->
+    <path d="M29.2 13.4 L29.2 20.4"/>
+    <!-- splayed base braces -->
+    <path d="M15 31.1 L18.3 26 M23 31.1 L19.6 26"/>
   </g>
 </svg>
