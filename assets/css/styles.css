@@ -464,7 +464,7 @@ h3.display { font-size: clamp(1.5rem, 3vw, 2.25rem); }
     background: rgba(13,14,17,0.97); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--border);
     padding: 1rem var(--gutter) 2rem;
-    transform: translateY(-120%); transition: transform 320ms var(--ease-out);
+    transform: translateY(calc(-100% - var(--header-h) - 12px)); transition: transform 320ms var(--ease-out);
     max-height: calc(100svh - var(--header-h)); overflow-y: auto;
   }
   .nav.is-open .nav__panel { transform: translateY(0); }
