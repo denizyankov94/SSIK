@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>За нас — ССИК</title>
+  <meta name="description" content="ССИК — строителна компания за жилищно строителство и къщи в България от 2006 г. Мисия, ценности и екип." />
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=1783640327" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="ССИК — начало">
+        <img class="brand__logo" src="assets/img/logo-mark.svg" alt="" width="36" height="36" /><span class="brand__name">ССИК</span>
+      </a>
+      <nav class="nav" aria-label="Основна навигация">
+        <div class="nav__panel">
+          <ul class="nav__links">
+            <li><a href="index.html" data-i18n="nav.home">Начало</a></li>
+            <li><a href="about.html" aria-current="page" data-i18n="nav.about">За нас</a></li>
+            <li><a href="services.html" data-i18n="nav.services">Услуги</a></li>
+            <li><a href="projects.html" data-i18n="nav.projects">Проекти</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Контакти</a></li>
+          </ul>
+          <div class="nav__side">
+            <div class="lang-toggle" role="group" aria-label="Език / Language">
+              <button type="button" data-lang="bg" aria-pressed="true">BG</button>
+              <button type="button" data-lang="en" aria-pressed="false">EN</button>
+            </div>
+            <a class="btn btn--primary" href="contact.html" data-i18n="nav.cta">Заявка за оферта</a>
+          </div>
+        </div>
+        <button class="nav-toggle" aria-label="Меню" aria-expanded="false"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb reveal"><a href="index.html" data-i18n="nav.home">Начало</a> / <span data-i18n="about.crumb">За нас</span></nav>
+        <h1 class="display reveal-up" style="max-width:24ch" data-i18n="about.h1">Изграждаме с отговорност от 2006 г.</h1>
+        <p class="lead reveal-up" style="margin-top:1.5rem" data-i18n="about.lead">ССИК е строителна компания, специализирана в жилищно строителство и еднофамилни къщи. Комбинираме инженерен опит с модерни технологии и стриктен контрол на качеството.</p>
+      </div>
+    </section>
+
+    <!-- STATS STRIP -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="hero__stats" data-stagger style="border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding-block:2.5rem;margin:0;grid-template-columns:repeat(4,1fr)">
+          <div class="stat"><div class="stat__num"><span data-count="250">0</span><sup>+</sup></div><div class="stat__label" data-i18n="home.stat1">Завършени проекта</div></div>
+          <div class="stat"><div class="stat__num"><span data-count="20">0</span><sup>+</sup></div><div class="stat__label" data-i18n="home.stat2">Години опит</div></div>
+          <div class="stat"><div class="stat__num"><span data-count="98">0</span><sup>%</sup></div><div class="stat__label" data-i18n="abt.badgeLabel">предадени в срок проекти</div></div>
+          <div class="stat"><div class="stat__num"><span data-count="45">0</span><sup>+</sup></div><div class="stat__label" data-i18n="about.team.eyebrow">Екип</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISSION / VALUES -->
+    <section class="section">
+      <div class="container">
+        <div class="split">
+          <div class="reveal-up">
+            <p class="eyebrow" data-i18n="about.mv.eyebrow">Мисия и ценности</p>
+            <h2 class="display" style="margin:1.25rem 0" data-i18n="about.mv.h2">Качество, което се вижда след години</h2>
+            <p class="muted" data-i18n="about.mv.p">Не гоним най-ниската цена, а най-доброто съотношение между качество, срок и дълготрайност. Всеки обект се изпълнява така, сякаш е за нас самите.</p>
+          </div>
+          <div class="split__media reveal-scale" style="aspect-ratio:4/3">
+            <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1000&q=70" alt="Модерна къща" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="grid grid--2" data-stagger style="margin-top:clamp(3rem,6vw,5rem);grid-template-columns:repeat(4,1fr)">
+          <article class="card">
+            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="0.6" fill="currentColor"/></svg></div>
+            <h3 data-i18n="about.v1.t">Прецизност</h3><p data-i18n="about.v1.d">Инженерен подход и внимание към детайла на всеки етап.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+            <h3 data-i18n="about.v2.t">Прозрачност</h3><p data-i18n="about.v2.d">Ясни договори, фиксирани цени и редовни отчети.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg></div>
+            <h3 data-i18n="about.v3.t">Отговорност</h3><p data-i18n="about.v3.d">Гаранция на конструкцията и дългосрочна поддръжка.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 22c4-3 7-7 7-11a7 7 0 0 0-14 0c0 4 3 8 7 11z"/><path d="M12 6v6l3 2"/></svg></div>
+            <h3 data-i18n="about.v4.t">Устойчивост</h3><p data-i18n="about.v4.d">Енергийна ефективност и сертифицирани материали.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <p class="eyebrow" data-i18n="about.team.eyebrow">Екип</p>
+          <h2 class="display" data-i18n="about.team.h2">Хората зад проектите</h2>
+        </div>
+        <div class="grid grid--3" data-stagger style="grid-template-columns:repeat(4,1fr)">
+          <article class="card" style="padding:0;overflow:hidden">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=500&q=70" alt="Управител" loading="lazy" style="aspect-ratio:1;object-fit:cover;width:100%" />
+            <div style="padding:1.5rem"><h3 style="font-size:1.1rem;margin-bottom:.25rem">Георги Стоянов</h3><p class="muted" style="font-family:var(--font-mono);font-size:.8rem" data-i18n="about.t1.role">Управител</p></div>
+          </article>
+          <article class="card" style="padding:0;overflow:hidden">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=500&q=70" alt="Главен инженер" loading="lazy" style="aspect-ratio:1;object-fit:cover;width:100%" />
+            <div style="padding:1.5rem"><h3 style="font-size:1.1rem;margin-bottom:.25rem">Мария Петрова</h3><p class="muted" style="font-family:var(--font-mono);font-size:.8rem" data-i18n="about.t2.role">Главен инженер</p></div>
+          </article>
+          <article class="card" style="padding:0;overflow:hidden">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=70" alt="Ръководител проекти" loading="lazy" style="aspect-ratio:1;object-fit:cover;width:100%" />
+            <div style="padding:1.5rem"><h3 style="font-size:1.1rem;margin-bottom:.25rem">Иван Димитров</h3><p class="muted" style="font-family:var(--font-mono);font-size:.8rem" data-i18n="about.t3.role">Ръководител проекти</p></div>
+          </article>
+          <article class="card" style="padding:0;overflow:hidden">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=500&q=70" alt="Архитект" loading="lazy" style="aspect-ratio:1;object-fit:cover;width:100%" />
+            <div style="padding:1.5rem"><h3 style="font-size:1.1rem;margin-bottom:.25rem">Елена Николова</h3><p class="muted" style="font-family:var(--font-mono);font-size:.8rem" data-i18n="about.t4.role">Архитект</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-band reveal-scale"><div class="cta-band__inner">
+          <div>
+            <h2 class="display" style="margin-bottom:1rem" data-i18n="cta.h2">Имате идея за строеж?</h2>
+            <p class="muted" style="max-width:48ch" data-i18n="cta.p">Разкажете ни за проекта си — ще получите безплатна консултация и ориентировъчна оферта до 3 работни дни.</p>
+          </div>
+          <a class="btn btn--primary" href="contact.html"><span data-i18n="cta.btn">Заявка за оферта</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <a class="brand" href="index.html"><img class="brand__logo" src="assets/img/logo-mark.svg" alt="" width="36" height="36" /><span class="brand__name">ССИК</span></a>
+          <p class="muted" data-i18n="ft.tag">Строим жилищни сгради и къщи в България с инженерна прецизност от 2006 г.</p>
+        </div>
+        <div class="footer-col"><h5 data-i18n="ft.nav">Навигация</h5>
+          <a href="index.html" data-i18n="nav.home">Начало</a><a href="about.html" data-i18n="nav.about">За нас</a><a href="services.html" data-i18n="nav.services">Услуги</a><a href="projects.html" data-i18n="nav.projects">Проекти</a><a href="contact.html" data-i18n="nav.contact">Контакти</a>
+        </div>
+        <div class="footer-col"><h5 data-i18n="ft.services">Услуги</h5>
+          <a href="services.html" data-i18n="svc.1.t">Жилищни сгради</a><a href="services.html" data-i18n="svc.2.t">Еднофамилни къщи</a><a href="services.html" data-i18n="svc.3.t">Проектиране</a><a href="services.html" data-i18n="svc.6.t">Управление на проекти</a>
+        </div>
+        <div class="footer-col"><h5 data-i18n="ft.contactTitle">Контакти</h5>
+          <a href="tel:+359879020101">0879 020 101</a><a href="mailto:ssik_eood@abv.bg">ssik_eood@abv.bg</a><p data-i18n="ft.address">бул. Черни връх 61, ет. 2, ап. 11, София</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> ССИК. <span data-i18n="ft.rights">Всички права запазени.</span></span>
+        <span data-i18n="ft.built">Демонстрационен сайт · съдържанието е примерно</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="assets/js/i18n.js?v=1783640327" defer></script>
+  <script src="assets/js/main.js?v=1783640327" defer></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

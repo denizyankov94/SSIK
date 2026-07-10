@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Проекти — ССИК</title>
+  <meta name="description" content="Портфолио на ССИК — реализирани жилищни сгради и еднофамилни къщи в България." />
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=1783640327" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="ССИК — начало"><img class="brand__logo" src="assets/img/logo-mark.svg" alt="" width="36" height="36" /><span class="brand__name">ССИК</span></a>
+      <nav class="nav" aria-label="Основна навигация">
+        <div class="nav__panel">
+          <ul class="nav__links">
+            <li><a href="index.html" data-i18n="nav.home">Начало</a></li>
+            <li><a href="about.html" data-i18n="nav.about">За нас</a></li>
+            <li><a href="services.html" data-i18n="nav.services">Услуги</a></li>
+            <li><a href="projects.html" aria-current="page" data-i18n="nav.projects">Проекти</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Контакти</a></li>
+          </ul>
+          <div class="nav__side">
+            <div class="lang-toggle" role="group" aria-label="Език / Language">
+              <button type="button" data-lang="bg" aria-pressed="true">BG</button>
+              <button type="button" data-lang="en" aria-pressed="false">EN</button>
+            </div>
+            <a class="btn btn--primary" href="contact.html" data-i18n="nav.cta">Заявка за оферта</a>
+          </div>
+        </div>
+        <button class="nav-toggle" aria-label="Меню" aria-expanded="false"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb reveal"><a href="index.html" data-i18n="nav.home">Начало</a> / <span data-i18n="projects.crumb">Проекти</span></nav>
+        <h1 class="display reveal-up" data-i18n="projects.h1">Нашето портфолио</h1>
+        <p class="lead reveal-up" style="margin-top:1.5rem" data-i18n="projects.lead">Избрани жилищни сгради и еднофамилни къщи, изградени от нашите екипи.</p>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="projects-grid" data-stagger>
+          <a class="project col-12" href="contact.html">
+            <img src="https://images.unsplash.com/photo-1481253127861-534498168948?auto=format&fit=crop&w=1600&q=70" alt="Комплекс Парк Лейн" loading="lazy" />
+            <div class="project__body">
+              <span class="project__tag" data-i18n="prj.3.tag">Жилищен комплекс</span>
+              <div class="project__title" data-i18n="prj.3.t">Комплекс Парк Лейн</div>
+              <div class="project__meta"><span>София</span><span>2024</span><span>12 800 м²</span></div>
+            </div>
+          </a>
+          <a class="project col-6" href="contact.html">
+            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1000&q=70" alt="Резиденция Витоша" loading="lazy" />
+            <div class="project__body">
+              <span class="project__tag" data-i18n="prj.1.tag">Жилищна сграда</span>
+              <div class="project__title" data-i18n="prj.1.t">Резиденция Витоша</div>
+              <div class="project__meta"><span>София</span><span>2023</span><span>6 200 м²</span></div>
+            </div>
+          </a>
+          <a class="project col-6" href="contact.html">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=70" alt="Къща Бояна" loading="lazy" />
+            <div class="project__body">
+              <span class="project__tag" data-i18n="prj.2.tag">Еднофамилна къща</span>
+              <div class="project__title" data-i18n="prj.2.t">Къща Бояна</div>
+              <div class="project__meta"><span>София</span><span>2022</span><span>320 м²</span></div>
+            </div>
+          </a>
+          <a class="project col-5" href="contact.html">
+            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=70" alt="Вила Родопи" loading="lazy" />
+            <div class="project__body">
+              <span class="project__tag" data-i18n="prj.4.tag">Еднофамилна къща</span>
+              <div class="project__title" data-i18n="prj.4.t">Вила Родопи</div>
+              <div class="project__meta"><span>Пловдив</span><span>2021</span><span>410 м²</span></div>
+            </div>
+          </a>
+          <a class="project col-7" href="contact.html">
+            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1100&q=70" alt="Сграда Централ" loading="lazy" />
+            <div class="project__body">
+              <span class="project__tag" data-i18n="prj.5.tag">Жилищна сграда</span>
+              <div class="project__title" data-i18n="prj.5.t">Сграда Централ</div>
+              <div class="project__meta"><span>Варна</span><span>2020</span><span>4 900 м²</span></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-band reveal-scale"><div class="cta-band__inner">
+          <div>
+            <h2 class="display" style="margin-bottom:1rem" data-i18n="cta.h2">Имате идея за строеж?</h2>
+            <p class="muted" style="max-width:48ch" data-i18n="cta.p">Разкажете ни за проекта си — ще получите безплатна консултация и ориентировъчна оферта до 3 работни дни.</p>
+          </div>
+          <a class="btn btn--primary" href="contact.html"><span data-i18n="cta.btn">Заявка за оферта</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <a class="brand" href="index.html"><img class="brand__logo" src="assets/img/logo-mark.svg" alt="" width="36" height="36" /><span class="brand__name">ССИК</span></a>
+          <p class="muted" data-i18n="ft.tag">Строим жилищни сгради и къщи в България с инженерна прецизност от 2006 г.</p>
+        </div>
+        <div class="footer-col"><h5 data-i18n="ft.nav">Навигация</h5>
+          <a href="index.html" data-i18n="nav.home">Начало</a><a href="about.html" data-i18n="nav.about">За нас</a><a href="services.html" data-i18n="nav.services">Услуги</a><a href="projects.html" data-i18n="nav.projects">Проекти</a><a href="contact.html" data-i18n="nav.contact">Контакти</a>
+        </div>
+        <div class="footer-col"><h5 data-i18n="ft.services">Услуги</h5>
+          <a href="services.html" data-i18n="svc.1.t">Жилищни сгради</a><a href="services.html" data-i18n="svc.2.t">Еднофамилни къщи</a><a href="services.html" data-i18n="svc.3.t">Проектиране</a><a href="services.html" data-i18n="svc.6.t">Управление на проекти</a>
+        </div>
+        <div class="footer-col"><h5 data-i18n="ft.contactTitle">Контакти</h5>
+          <a href="tel:+359879020101">0879 020 101</a><a href="mailto:ssik_eood@abv.bg">ssik_eood@abv.bg</a><p data-i18n="ft.address">бул. Черни връх 61, ет. 2, ап. 11, София</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> ССИК. <span data-i18n="ft.rights">Всички права запазени.</span></span>
+        <span data-i18n="ft.built">Демонстрационен сайт · съдържанието е примерно</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="assets/js/i18n.js?v=1783640327" defer></script>
+  <script src="assets/js/main.js?v=1783640327" defer></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

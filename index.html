@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ССИК — Жилищно строителство и къщи в България</title>
+  <meta name="description" content="ССИК проектира и изгражда жилищни сгради и еднофамилни къщи в България с инженерна прецизност от 2006 г." />
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=1783640327" />
+</head>
+<body>
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="ССИК — начало">
+        <img class="brand__logo" src="assets/img/logo-mark.svg" alt="" width="36" height="36" /><span class="brand__name">ССИК</span>
+      </a>
+
+      <nav class="nav" aria-label="Основна навигация">
+        <div class="nav__panel">
+          <ul class="nav__links">
+            <li><a href="index.html" aria-current="page" data-i18n="nav.home">Начало</a></li>
+            <li><a href="about.html" data-i18n="nav.about">За нас</a></li>
+            <li><a href="services.html" data-i18n="nav.services">Услуги</a></li>
+            <li><a href="projects.html" data-i18n="nav.projects">Проекти</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Контакти</a></li>
+          </ul>
+          <div class="nav__side">
+            <div class="lang-toggle" role="group" aria-label="Език / Language">
+              <button type="button" data-lang="bg" aria-pressed="true">BG</button>
+              <button type="button" data-lang="en" aria-pressed="false">EN</button>
+            </div>
+            <a class="btn btn--primary" href="contact.html" data-i18n="nav.cta">Заявка за оферта</a>
+          </div>
+        </div>
+        <button class="nav-toggle" aria-label="Меню" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="hero__media">
+        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1920&q=70"
+             alt="Строителна площадка с кранове на фона на градски силует"
+             fetchpriority="high" decoding="async" width="1920" height="1280" />
+      </div>
+      <div class="hero__inner">
+        <div class="container">
+          <p class="eyebrow" data-hero data-i18n="home.eyebrow">Жилищно строителство · Къщи · От 2006 г.</p>
+          <h1 class="display" data-hero>
+            <span data-i18n="home.h1a">Строим</span>
+            <span class="stroke" data-i18n="home.h1b">бъдеще</span>
+            <span data-i18n="home.h1c">което остава</span>
+          </h1>
+          <p class="lead" data-hero data-i18n="home.lead">ССИК проектира и изгражда жилищни сгради и еднофамилни къщи в България — с инженерна прецизност, качествени материали и предаване в срок.</p>
+          <div class="hero__actions" data-hero>
+            <a class="btn btn--primary" href="contact.html">
+              <span data-i18n="home.ctaPrimary">Започнете проект</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="projects.html" data-i18n="home.ctaSecondary">Вижте проектите</a>
+          </div>
+
+          <div class="hero__stats" data-hero>
+            <div class="stat">
+              <div class="stat__num"><span data-count="250">0</span><sup>+</sup></div>
+              <div class="stat__label" data-i18n="home.stat1">Завършени проекта</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num"><span data-count="20">0</span><sup>+</sup></div>
+              <div class="stat__label" data-i18n="home.stat2">Години опит</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num"><span data-count="180000">0</span></div>
+              <div class="stat__label" data-i18n="home.stat3">м² разгъната площ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true"><span data-i18n="home.scroll">Скролнете</span></div>
+    </section>
+
+    <!-- ================= SERVICES PREVIEW ================= -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <p class="eyebrow" data-i18n="svc.eyebrow">Какво правим</p>
+          <h2 class="display" data-i18n="svc.h2">Пълен цикъл на строителство</h2>
+          <p class="lead" data-i18n="svc.lead">От идеен проект до ключ — поемаме отговорност за всеки етап от изграждането.</p>
+        </div>
+
+        <div class="grid grid--3" data-stagger>
+          <article class="card">
+            <span class="card__line"></span>
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6M9 11h.01M15 11h.01"/></svg>
+            </div>
+            <h3 data-i18n="svc.1.t">Жилищни сгради</h3>
+            <p data-i18n="svc.1.d">Многофамилни жилищни комплекси с подземни гаражи, общи части и завършена инфраструктура.</p>
+          </article>
+          <article class="card">
+            <span class="card__line"></span>
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 11l9-7 9 7M5 10v10h14V10M9 20v-6h6v6"/></svg>
+            </div>
+            <h3 data-i18n="svc.2.t">Еднофамилни къщи</h3>
+            <p data-i18n="svc.2.d">Индивидуални къщи по проект — монолитни и с енергоефективни решения по избор на клиента.</p>
+          </article>
+          <article class="card">
+            <span class="card__line"></span>
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 4h16v16H4zM4 9h16M9 9v11M13 13h4M13 16h4"/></svg>
+            </div>
+            <h3 data-i18n="svc.3.t">Проектиране</h3>
+            <p data-i18n="svc.3.d">Архитектурно и конструктивно проектиране, разрешителни и пълна документация.</p>
+          </article>
+        </div>
+
+        <div style="margin-top:2.5rem" class="reveal-up">
+          <a class="btn btn--ghost" href="services.html">
+            <span data-i18n="svc.all">Всички услуги</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT SPLIT ================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="split">
+          <div class="split__media reveal-scale">
+            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1000&q=70"
+                 alt="Модерна жилищна сграда" loading="lazy" width="1000" height="1250" />
+            <div class="split__badge">
+              <div class="stat__num" data-i18n="abt.badgeNum">98%</div>
+              <div class="stat__label" style="margin:0" data-i18n="abt.badgeLabel">предадени в срок проекти</div>
+            </div>
+          </div>
+          <div class="reveal-up">
+            <p class="eyebrow" data-i18n="abt.eyebrow">За ССИК</p>
+            <h2 class="display" style="margin:1.25rem 0" data-i18n="abt.h2">Инженерна дисциплина, зад която стоим</h2>
+            <p class="muted" data-i18n="abt.p">Над 20 години изграждаме жилищни сгради и къщи в София и страната. Работим със собствени екипи и проверени партньори, за да контролираме качеството на всеки етап.</p>
+            <ul class="checklist">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="abt.li1">Собствени строителни екипи и техника</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="abt.li2">Прозрачно ценообразуване и фиксирани срокове</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="abt.li3">10-годишна гаранция на конструкцията</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="abt.li4">Сертифицирани материали и енергийна ефективност</span></li>
+            </ul>
+            <div style="margin-top:2rem">
+              <a class="btn btn--ghost" href="about.html">
+                <span data-i18n="abt.more">Повече за нас</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROCESS ================= -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <p class="eyebrow" data-i18n="proc.eyebrow">Как работим</p>
+          <h2 class="display" data-i18n="proc.h2">Ясен процес, без изненади</h2>
+        </div>
+        <div class="steps" data-stagger>
+          <div class="step">
+            <h4 data-i18n="proc.1.t">Консултация</h4>
+            <p data-i18n="proc.1.d">Обсъждаме нуждите, терена и бюджета. Изготвяме първоначална концепция.</p>
+          </div>
+          <div class="step">
+            <h4 data-i18n="proc.2.t">Проект и оферта</h4>
+            <p data-i18n="proc.2.d">Детайлен проект с количествено-стойностна сметка и фиксиран срок.</p>
+          </div>
+          <div class="step">
+            <h4 data-i18n="proc.3.t">Строителство</h4>
+            <p data-i18n="proc.3.d">Изпълнение с редовни отчети и контрол на качеството на място.</p>
+          </div>
+          <div class="step">
+            <h4 data-i18n="proc.4.t">Предаване</h4>
+            <p data-i18n="proc.4.d">Приемане, документация, гаранция и поддръжка след завършване.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS PREVIEW ================= -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <p class="eyebrow" data-i18n="prj.eyebrow">Избрани проекти</p>
+          <h2 class="display" data-i18n="prj.h2">Реализирани обекти</h2>
+          <p class="lead" data-i18n="prj.lead">Показваме част от завършените ни жилищни и еднофамилни проекти.</p>
+        </div>
+
+        <div class="projects-grid" data-stagger>
+          <a class="project col-7" href="projects.html">
+            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1100&q=70" alt="Резиденция Витоша" loading="lazy" />
+            <div class="project__body">
+              <span class="project__tag" data-i18n="prj.1.tag">Жилищна сграда</span>
+              <div class="project__title" data-i18n="prj.1.t">Резиденция Витоша</div>
+              <div class="project__meta"><span>София</span><span>2023</span><span>6 200 м²</span></div>
+            </div>
+          </a>
+          <a class="project col-5" href="projects.html">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=70" alt="Къща Бояна" loading="lazy" />
+            <div class="project__body">
+              <span class="project__tag" data-i18n="prj.2.tag">Еднофамилна къща</span>
+              <div class="project__title" data-i18n="prj.2.t">Къща Бояна</div>
+              <div class="project__meta"><span>София</span><span>2022</span><span>320 м²</span></div>
+            </div>
+          </a>
+          <a class="project col-5" href="projects.html">
+            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=70" alt="Вила Родопи" loading="lazy" />
+            <div class="project__body">
+              <span class="project__tag" data-i18n="prj.4.tag">Еднофамилна къща</span>
+              <div class="project__title" data-i18n="prj.4.t">Вила Родопи</div>
+              <div class="project__meta"><span>Пловдив</span><span>2021</span><span>410 м²</span></div>
+            </div>
+          </a>
+          <a class="project col-7" href="projects.html">
+            <img src="https://images.unsplash.com/photo-1481253127861-534498168948?auto=format&fit=crop&w=1100&q=70" alt="Комплекс Парк Лейн" loading="lazy" />
+            <div class="project__body">
+              <span class="project__tag" data-i18n="prj.3.tag">Жилищен комплекс</span>
+              <div class="project__title" data-i18n="prj.3.t">Комплекс Парк Лейн</div>
+              <div class="project__meta"><span>София</span><span>2024</span><span>12 800 м²</span></div>
+            </div>
+          </a>
+        </div>
+
+        <div style="margin-top:2.5rem" class="reveal-up">
+          <a class="btn btn--ghost" href="projects.html">
+            <span data-i18n="prj.all">Всички проекти</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIAL ================= -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="reveal-up" style="max-width:60ch">
+          <p class="eyebrow" data-i18n="tst.eyebrow">Доверие</p>
+          <blockquote style="font-family:var(--font-display);font-weight:500;font-size:clamp(1.5rem,3.5vw,2.4rem);line-height:1.2;text-transform:none;margin:1.5rem 0">
+            <span data-i18n="tst.quote">„ССИК изградиха къщата ни за 11 месеца — точно по график и в рамките на бюджета. Комуникацията беше безупречна на всеки етап.“</span>
+          </blockquote>
+          <div style="display:flex;align-items:center;gap:1rem">
+            <div style="width:44px;height:44px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;font-family:var(--font-display);font-size:1.2rem">П</div>
+            <div>
+              <div style="font-weight:600" data-i18n="tst.name">Инж. Петър Илиев</div>
+              <div class="muted" style="font-size:0.85rem" data-i18n="tst.role">Клиент, Къща Бояна</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA BAND ================= -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-band reveal-scale">
+          <div class="cta-band__inner">
+            <div>
+              <h2 class="display" style="margin-bottom:1rem" data-i18n="cta.h2">Имате идея за строеж?</h2>
+              <p class="muted" style="max-width:48ch" data-i18n="cta.p">Разкажете ни за проекта си — ще получите безплатна консултация и ориентировъчна оферта до 3 работни дни.</p>
+            </div>
+            <a class="btn btn--primary" href="contact.html">
+              <span data-i18n="cta.btn">Заявка за оферта</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <a class="brand" href="index.html">
+            <img class="brand__logo" src="assets/img/logo-mark.svg" alt="" width="36" height="36" /><span class="brand__name">ССИК</span>
+          </a>
+          <p class="muted" data-i18n="ft.tag">Строим жилищни сгради и къщи в България с инженерна прецизност от 2006 г.</p>
+        </div>
+        <div class="footer-col">
+          <h5 data-i18n="ft.nav">Навигация</h5>
+          <a href="index.html" data-i18n="nav.home">Начало</a>
+          <a href="about.html" data-i18n="nav.about">За нас</a>
+          <a href="services.html" data-i18n="nav.services">Услуги</a>
+          <a href="projects.html" data-i18n="nav.projects">Проекти</a>
+          <a href="contact.html" data-i18n="nav.contact">Контакти</a>
+        </div>
+        <div class="footer-col">
+          <h5 data-i18n="ft.services">Услуги</h5>
+          <a href="services.html" data-i18n="svc.1.t">Жилищни сгради</a>
+          <a href="services.html" data-i18n="svc.2.t">Еднофамилни къщи</a>
+          <a href="services.html" data-i18n="svc.3.t">Проектиране</a>
+          <a href="services.html" data-i18n="svc.6.t">Управление на проекти</a>
+        </div>
+        <div class="footer-col">
+          <h5 data-i18n="ft.contactTitle">Контакти</h5>
+          <a href="tel:+359879020101">0879 020 101</a>
+          <a href="mailto:ssik_eood@abv.bg">ssik_eood@abv.bg</a>
+          <p data-i18n="ft.address">бул. Черни връх 61, ет. 2, ап. 11, София</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> ССИК. <span data-i18n="ft.rights">Всички права запазени.</span></span>
+        <span data-i18n="ft.built">Демонстрационен сайт · съдържанието е примерно</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="assets/js/i18n.js?v=1783640327" defer></script>
+  <script src="assets/js/main.js?v=1783640327" defer></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
