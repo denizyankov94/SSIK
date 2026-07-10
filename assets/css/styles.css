@@ -370,6 +370,15 @@ h3.display { font-size: clamp(1.5rem, 3vw, 2.25rem); }
 .step h4 { font-family: var(--font-display); text-transform: uppercase; font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem; }
 .step p { color: var(--fg-muted); font-size: 0.92rem; }
 
+/* ---------- Timeline ---------- */
+.timeline { position: relative; max-width: 720px; }
+.timeline::before { content: ""; position: absolute; left: 6px; top: 8px; bottom: 8px; width: 2px; background: var(--border); }
+.tl-item { position: relative; padding: 0 0 2.25rem 2.25rem; }
+.tl-item:last-child { padding-bottom: 0; }
+.tl-item::before { content: ""; position: absolute; left: 0; top: 4px; width: 14px; height: 14px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px var(--bg); }
+.tl-year { font-family: var(--font-display); font-weight: 600; font-size: 1.5rem; line-height: 1; color: var(--accent); letter-spacing: 0.02em; }
+.tl-item p { color: var(--fg-muted); margin-top: 0.4rem; max-width: 52ch; }
+
 /* ---------- CTA band ---------- */
 .cta-band { position: relative; overflow: hidden; border-radius: var(--radius-lg); }
 .cta-band__inner {
