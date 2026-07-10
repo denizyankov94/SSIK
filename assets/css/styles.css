@@ -290,6 +290,11 @@ h3.display { font-size: clamp(1.5rem, 3vw, 2.25rem); }
 .grid { display: grid; gap: 1.5rem; }
 .grid--3 { grid-template-columns: repeat(3, 1fr); }
 .grid--2 { grid-template-columns: repeat(2, 1fr); }
+.grid--4 { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 900px) { .grid--4 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .grid--4 { grid-template-columns: 1fr; } }
+.hero__stats.is-four { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 560px) { .hero__stats.is-four { grid-template-columns: repeat(2, 1fr); row-gap: 2rem; } }
 
 .card {
   background: var(--surface);
