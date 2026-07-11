@@ -213,7 +213,7 @@
       "contact.emailLabel": "Имейл",
       "contact.addrLabel": "Офис",
       "contact.hoursLabel": "Работно време",
-      "contact.hours": "Пон–Пет: 09:00 – 18:00",
+      "contact.hours": "Пон–Пет: 08:30 – 17:00",
       "contact.openMap": "Отвори в Google Maps ↗",
     },
 
@@ -410,7 +410,7 @@
       "contact.emailLabel": "Email",
       "contact.addrLabel": "Office",
       "contact.hoursLabel": "Working hours",
-      "contact.hours": "Mon–Fri: 09:00 – 18:00",
+      "contact.hours": "Mon–Fri: 08:30 – 17:00",
       "contact.openMap": "Open in Google Maps ↗",
     },
   };
