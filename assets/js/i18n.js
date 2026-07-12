@@ -187,7 +187,7 @@
 
       // Contact page
       "contact.crumb": "Контакти",
-      "contact.h1": "Да започнем разговор",
+      "contact.h1": "Свържете се с нас",
       "contact.lead": "Попълнете формата или се свържете директно с нас. Отговаряме в рамките на един работен ден.",
       "contact.formTitle": "Заявка за оферта",
       "contact.name": "Име",
@@ -384,7 +384,7 @@
       "projects.lead": "Selected residential buildings and single-family houses built by our teams.",
 
       "contact.crumb": "Contact",
-      "contact.h1": "Let's start a conversation",
+      "contact.h1": "Get in touch",
       "contact.lead": "Fill in the form or reach us directly. We reply within one business day.",
       "contact.formTitle": "Request a quote",
       "contact.name": "Name",
