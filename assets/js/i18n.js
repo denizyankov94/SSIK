@@ -111,6 +111,7 @@
 
       // Footer
       "ft.tag": "Строим жилищни сгради и къщи в България с инженерна прецизност от 2006 г.",
+      "ft.acr": "Строителство · Саниране · Инженеринг · Консулт",
       "ft.nav": "Навигация",
       "ft.services": "Услуги",
       "ft.contactTitle": "Контакти",
@@ -312,6 +313,7 @@
       "cta.btn": "Request a quote",
 
       "ft.tag": "Building residential buildings and houses across Bulgaria with engineering precision since 2006.",
+      "ft.acr": "Construction · Renovation · Engineering · Consulting",
       "ft.nav": "Navigation",
       "ft.services": "Services",
       "ft.contactTitle": "Contact",

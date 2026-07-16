@@ -192,6 +192,7 @@ h3.display { font-size: clamp(1.5rem, 3vw, 2.25rem); }
   font-size: 1.4rem; letter-spacing: 0.14em; text-transform: uppercase;
 }
 .brand__name b { color: var(--accent); font-weight: 700; }
+.footer-brand .brand__acr { margin-top: 0.55rem; font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.13em; text-transform: uppercase; color: var(--accent); }
 
 .nav { display: flex; align-items: center; gap: 1.5rem; }
 .nav__links { display: flex; align-items: center; gap: 1.35rem; }

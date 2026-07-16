@@ -1,24 +1,15 @@
 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ССИК">
   <rect width="40" height="40" rx="5" fill="#f2b134"/>
-  <!-- tower crane silhouette lifting a load -->
-  <g fill="#141007">
-    <!-- horizontal jib (arm) -->
-    <rect x="7.4" y="11" width="25.8" height="2.4"/>
-    <!-- counterweight (left) -->
-    <rect x="6.8" y="9.2" width="4.2" height="5.8" rx="0.5"/>
-    <!-- mast (tower) -->
-    <rect x="17.5" y="12.6" width="2.9" height="18.6"/>
-    <!-- base foot -->
-    <rect x="13.2" y="31" width="11.6" height="2.4" rx="0.4"/>
-    <!-- suspended load -->
-    <rect x="26.9" y="20.4" width="4.6" height="3.3" rx="0.4"/>
-  </g>
-  <g fill="none" stroke="#141007" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
-    <!-- cat-head apex + tie bars -->
-    <path d="M18.95 6.2 L9.3 11 M18.95 6.2 L31 11 M18.95 6.2 L18.95 12.4"/>
-    <!-- hoist cable lifting the load -->
-    <path d="M29.2 13.4 L29.2 20.4"/>
-    <!-- splayed base braces -->
-    <path d="M15 31.1 L18.3 26 M23 31.1 L19.6 26"/>
+  <!-- ССИК building mark: multi-storey building with foundation -->
+  <g fill="none" stroke="#141007" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- tower outline with penthouse step -->
+    <path d="M12.5 31 V13 H16 V9 H21 V13 H25.5 V31"/>
+    <!-- floor lines -->
+    <path d="M12.5 17 H25.5 M12.5 21 H25.5 M12.5 25 H25.5 M12.5 29 H25.5"/>
+    <!-- vertical mullion -->
+    <path d="M19 13 V31"/>
+    <!-- ground + foundation braces (construction) -->
+    <path d="M8.5 31 H29.5"/>
+    <path d="M13 31 L10 34.6 M25 31 L28 34.6"/>
   </g>
 </svg>
